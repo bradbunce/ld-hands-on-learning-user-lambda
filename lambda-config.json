@@ -1,0 +1,16 @@
+{
+    "FunctionName": "brad-weather-app-user",
+    "Environment": {
+        "Variables": {
+            "DB_PRIMARY_HOST": "",
+            "DB_READ_REPLICA_HOST": "",
+            "DB_USER": "",
+            "DB_PASSWORD": "",
+            "DB_NAME": "",
+        }
+    },
+    "MemorySize": 128,
+    "Timeout": 30,
+    "Runtime": "nodejs20.x",
+    "Handler": "index.handler"
+}
